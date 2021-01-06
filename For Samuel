@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+     string name (char A) {
+   string nameoftheperson;
+   switch (A) {
+   case 0:
+       nameoftheperson = "Hello Noob And I Know You Have A Very Very Very Very Very Very Small PP";
+       break;
+   case 1:
+    nameoftheperson = "Hello World";
+    break;
+
+
+    return nameoftheperson;
+   }
+   }
+
+    int main()
+    {
+        cout << name(0);
+        return 0;
+    }
